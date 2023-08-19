@@ -1,0 +1,4 @@
+all:
+	nasm -f bin ./boot5.asm -o ./boot5.bin
+	dd if=./message.txt >> ./boot5.bin
+	dd if=/dev/zero bs=512 count=1 >> ./boot5.bin

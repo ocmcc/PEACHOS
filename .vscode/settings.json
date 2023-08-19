@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "*.php": "php",
+        "*.html": "html",
+        "idt.h": "c",
+        "kernel.h": "c"
+    }
+}
